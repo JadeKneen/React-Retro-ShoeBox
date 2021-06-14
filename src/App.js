@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
+import DataTable from "./DataTable";
 
 function App() {
-
- const [name, setTodoName] = useState("");
 
  return (
    <div className="App">
@@ -16,6 +15,10 @@ function App() {
        />
        <button type="submit">+</button>
      </form>
+     <br/>
+
+     <DataTable/>
+
    </div>
  );
 }
