@@ -13,12 +13,12 @@ function App() {
        <input
          placeholder="Add Comment"
        />
-       <button type="submit">+</button>
+       <button type="submit">Add your comment</button>
      </form>
      <br/>
 
      <DataTable/>
-
+     
    </div>
  );
 }

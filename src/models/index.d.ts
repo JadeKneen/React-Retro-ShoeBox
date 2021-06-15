@@ -7,7 +7,7 @@ import { ModelInit, MutableModel, PersistentModelConstructor } from "@aws-amplif
 export declare class SubmissionTable {
   readonly id: string;
   readonly comment: string;
-  readonly userId?: string;
+  readonly userId: string;
   readonly createdAt?: string;
   readonly updatedAt?: string;
   constructor(init: ModelInit<SubmissionTable>);

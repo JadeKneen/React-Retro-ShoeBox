@@ -1,0 +1,17 @@
+type SubmissionTable @model @auth(rules: [{allow: public}]) @key(name: "byUserTable", fields: ["userId"]) {
+  id: ID!
+  comment: String!
+  userId: ID!
+}
+
+type UserTable @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  SubmissionTables: [SubmissionTable] @connection(keyName: "byUserTable", fields: ["id"])
+}
+
+type Mutation @model @auth(rules: [{allow: public}]) {
+  createComment(id:ID,comment:String,userId:ID):String
+}
+
+ 

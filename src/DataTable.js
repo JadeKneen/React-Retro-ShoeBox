@@ -1,6 +1,9 @@
 import React from "react";
+import { DataStore } from '@aws-amplify/datastore';
+import { SubmissionTable } from './models';
 
 function DataTable(){
+
     return(
         <table>
             <thead>
