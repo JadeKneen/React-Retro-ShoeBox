@@ -1,3 +1,9 @@
+# Help me build a Retro Shoebox for Hacktoberfest
+
+The purpose of this app is so people can add comments which can be discussed at the next squad retro. Practice your React skills and have a play around! What do you think would be useful?
+
+*****
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
